@@ -188,7 +188,7 @@ table th{color: rgb(136, 148, 182);}
 
 /* PAGE 2*/
 /*brands*/
-.mobile{
+.mobile{ padding-top: 250px;
   height: 215px;
   background-color: darkred;}
 .mobile div img{
@@ -232,7 +232,7 @@ table th{color: rgb(136, 148, 182);}
 .mob div img:hover{transform: scale(1.2);}
 
 /*PAGE 3*/
-.samsung { height: 1000px;}
+.samsung { height: 1000px;padding-top: 220px;}
 .samsung div{
   float: left;
   margin-right:45px;}
