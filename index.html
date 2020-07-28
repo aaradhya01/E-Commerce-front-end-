@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Commerce</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width= device width intial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div><img src="pic/web_logo.jpg" width="90px" height="90px"></div>
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="Search for products">
+                    <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="login"><button type="submit" class="btn">SIGN UP</button></div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="product.html">Mobiles</a></li>
+                <li><a href="dummy.html">TV & Appliances</a></li>
+                <li><a href="dummy.html">Men</a></li>
+                <li><a href="dummy.html">Women</a></li>
+                <li><a href="dummy.html">Baby & Kids</a></li>
+                <li><a href="dummy.html">Home & Furnitures</a></li>
+            </ul>
+        </nav>             
+        <section class="sshow">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1/5</div>
+                  <a href="dummy.html"><img src="pic/offer-1.jpg" style="width:100%"></a>
+                </div>               
+                <div class="mySlides fade">
+                  <div class="numbertext">2/5</div>
+                  <a href="dummy.html"><img src="pic/offer-2.jpg" style="width:100%"></a>               
+                </div>             
+                <div class="mySlides fade">
+                  <div class="numbertext">3/5</div>
+                  <a href="dummy.html"><img src="pic/offer-3.jpg" style="width:100%"></a>                
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4/5</div>
+                    <a href="dummy.html"><img src="pic/offer-4.jpeg" style="width:100%"></a>                
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5/5</div>
+                    <a href="dummy.html"><img src="pic/offer-5.jpg" style="width:100%"></a>                  
+                </div> 
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a><br>
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </section>
+        <section class="dealsoday">
+            <h1>Deals of The Day</h1>
+            <p id="timer"></p>
+            <div class="zoom">
+                <div><a href="dummy.html"><img src="pic/deal-1.jpg" ></a></div>
+                <div><a href="dummy.html"><img src="pic/deal_2.jpg"></a></div>
+                <div><a href="dummy.html"><img src="pic/deal_3.jpg"></a></div>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li>
+                    <table>
+                        <tr>
+                            <th>ABOUT</th>
+                            <th>HELP</th>
+                            <th>POLICY</th>    
+                        </tr>
+                        <tr>
+                            <td><a href="dummy.html">Contact Us</a></td>
+                            <td><a href="dummy.html">Payments</a></td>
+                            <td><a href="dummy.html">Return Policy</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="dummy.html">About US</a></td>
+                            <td><a href="dummy.html">Shipping</a></td>
+                            <td><a href="dummy.html">Time of Use</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="dummy.html">Careers</a></td>
+                            <td><a href="dummy.html">Cancellations and Returns</a></td>
+                            <td><a href="dummy.html">Careers</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="dummy.html">Press</a></td>
+                            <td><a href="dummy.html">Report an Issue</a></td>
+                            <td><a href="dummy.html">Privacy</a></td>
+                        </tr>
+                        <div class="vl"></div>
+                    </table>
+                </li>
+                <li>
+                    <div class="contact">
+                        <table>
+                            <tr>
+                                <th>Mail Us:</th>
+                            </tr>
+                            <tr>
+                                <td>XXX online shopping</td>
+                            </tr>
+                            <tr>
+                                <td>6/23 abc complex,</td>
+                            </tr>
+                            <tr>
+                                <td>def road</td>
+                            </tr>
+                            <tr>
+                                <td>Mumbai-40xx5</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="RO">
+                        <table>
+                            <tr>
+                                <th>Registered Office</th>
+                            </tr>
+                            <tr>
+                                <td>9/32 xyz building,</td>
+                            </tr>
+                            <tr>
+                                <td>abc road</td>
+                            </tr>
+                            <tr>
+                                <td>PQR city-20xx1</td>
+                            </tr>  
+                        </table>
+                    </div>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
