@@ -1,5 +1,9 @@
 body{margin: 0px;}
-
+.top{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
 /*header*/
 header{
   background-color: blue;
@@ -73,7 +77,7 @@ nav{
 /*slideshow*/
 .sshow{
   background-color: black;
-  padding: 0px;
+  padding-top: 220px;
   height: 255px;}
 .mySlides {display: none;}
 .mySlides img { height: 200px;width:1500px ;}
@@ -268,24 +272,18 @@ table th{color: rgb(136, 148, 182);}
   
 
 /* Responsive */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}}
+@media only screen and (max-width: 300px) {.text {font-size: 11px}}
+@media screen and (max-width: 1024px) {nav ul li{padding-right: 50px;}}
+@media screen and (max-width: 1024px) {header div{padding: 30px 30px;}}
+@media screen and (max-width: 1024px) {.dealsoday{height: 1200px;}}
 @media screen and (max-width: 1024px) {
-  nav ul li{padding-right: 50px;}}
-@media screen and (max-width: 1024px) {
-  header div{padding: 30px 30px;}}
-@media screen and (max-width: 1024px) {
-  .dealsoday{height: 1200px;}}
-
-  @media screen and (max-width: 1024px) {
-    .dealsoday .zoom div{
-     float: none;
+  .dealsoday .zoom div{
+    float: none;
     text-align: center;
-  margin-bottom: 15px;}}
-  @media screen and (max-width: 1024px) {
-    .dot{
-      margin-top:-9px;
-    }
-  }
-  @media screen and (max-width: 1024px){.button div ul li{font-size:10px;}}
-  @media screen and (max-width: 1024px){.samsung{height: 2100px;}}
+    margin-bottom: 15px;}}
+@media screen and (max-width: 1024px) {.dot{margin-top:-9px;}}
+@media screen and (max-width: 1024px){.button div ul li{font-size:10px;}}
+@media screen and (max-width: 1024px){.samsung{height: 2100px;}}
+@media screen and (max-width: 1024px){.mobile div img{ max-width: 85px;}}
+@media screen and (max-width: 300px){.mob div{ float: none;}}
+@media screen and (max-width: 1024px){.mob { height: 900px;}}
